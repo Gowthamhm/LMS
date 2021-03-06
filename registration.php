@@ -5,8 +5,6 @@ include('configr.php');
 
 $regis_button = '<a href="'.$google_client->createAuthUrl().'" class="btn btn-block py-2 btn-google">
             <span class="icon-google mr-3"></span>Register with Google</a>';
-
-
  ?>
 <!doctype html>
 <html lang="en">
