@@ -1,3 +1,13 @@
+<?php
+
+//Include Configuration File
+include('configr.php');
+
+$regis_button = '<a href="'.$google_client->createAuthUrl().'" class="btn btn-block py-2 btn-google">
+            <span class="icon-google mr-3"></span>Register with Google</a>';
+
+
+ ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,7 +43,8 @@
                 <h3 class="text-uppercase">Registration to <strong>LMS</strong> </h3>
               </div>
               <div class="">
-              <a href="#" class="btn btn-block py-2 btn-google"><span class="icon-google mr-3"></span> Login with Google</a>
+              <!-- <a href="#" class="btn btn-block py-2 btn-google"><span class="icon-google mr-3"></span> Login with Google</a> -->
+              <?php   echo $regis_button ; ?>
               </div>
             </div>
           </div>

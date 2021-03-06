@@ -16,7 +16,7 @@ $google_client->setClientId('31693840412-fai497ep6mov9lhodujqpkmu16ien4j1.apps.g
 $google_client->setClientSecret('GRa1QatFEY1Rk5pV6HE7-zj1');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://localhost/lms/home.php');
+$google_client->setRedirectUri('http://localhost/final/home.php');
 
 //
 $google_client->addScope('email');
